@@ -1,0 +1,31 @@
+[debug] [2022-09-30T19:48:31.871Z] ----------------------------------------------------------------------
+[debug] [2022-09-30T19:48:31.874Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ABHISHEK\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2022-09-30T19:48:31.875Z] CLI Version:   11.12.0
+[debug] [2022-09-30T19:48:31.876Z] Platform:      win32
+[debug] [2022-09-30T19:48:31.876Z] Node Version:  v16.17.1
+[debug] [2022-09-30T19:48:31.882Z] Time:          Sat Oct 01 2022 01:18:31 GMT+0530 (India Standard Time)
+[debug] [2022-09-30T19:48:31.883Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-30T19:48:31.888Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2022-09-30T19:48:37.073Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-09-30T19:48:37.073Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=313433229&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-09-30T19:51:09.576Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2022-09-30T19:51:09.579Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2022-09-30T19:51:17.464Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2022-09-30T19:51:17.465Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[info] 
+[info] +  Success! Logged in as abhishekyadav0751@gmail.com 
+[debug] [2022-09-30T19:51:27.613Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\ABHISHEK\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
