@@ -1,7 +1,7 @@
 # S-Media
 
-About The Project
-A social meadia app that enables user to create posts.
+About The Project                                                                                                                                                         
+A social meadia app that enables user to create and like/dislike posts.                                      
 
 Built With:                                                                                                                                                                        
 Reactjs (react-router-dom, react-hook-form, yup)                                                                                                                                               
